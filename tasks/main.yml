@@ -1,0 +1,3 @@
+- name: Install privacy friendly resolv.conf
+  template: src=resolv.conf dest=/etc/resolv.conf
+  tags: dns
